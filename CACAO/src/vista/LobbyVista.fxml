@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controlador.LobbyController">
+   <children>
+      <Button fx:id="btn_game" layoutX="274.0" layoutY="188.0" mnemonicParsing="false" onAction="#click" text="Button" />
+      <Button fx:id="btn_listo" layoutX="274.0" layoutY="116.0" mnemonicParsing="false" onAction="#click_listo" text="Button" />
+      <Button fx:id="btn_rojo" layoutX="14.0" layoutY="66.0" mnemonicParsing="false" onAction="#click_rojo" text="rojo" />
+      <Button fx:id="btn_azul" layoutX="14.0" layoutY="91.0" mnemonicParsing="false" onAction="#click_azul" text="azul" />
+      <Button fx:id="btn_amarillo" layoutX="14.0" layoutY="116.0" mnemonicParsing="false" onAction="#click_amarillo" text="amarillo" />
+      <Button fx:id="btn_blanco" layoutX="14.0" layoutY="141.0" mnemonicParsing="false" onAction="#click_blanco" text="blanco" />
+   </children>
+</AnchorPane>
